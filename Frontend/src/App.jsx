@@ -3,11 +3,11 @@ import "./App.css";
 import {BrowserRouter as Router} from "react-router-dom";
 import { Toaster } from "react-hot-toast";
 import Navbar from "./Components/Navbar.jsx";
-import HeroSection from "./components/HeroSection";
-import Services from "./components/Services.jsx";
-import About from "./components/About.jsx";
-import Contact from "./components/Contact.jsx";
-import Footer from "./components/Footer.jsx";
+import HeroSection from "./Components/HeroSection";
+import Services from "./Components/Services.jsx";
+import About from "./Components/About.jsx";
+import Contact from "./Components/Contact.jsx";
+import Footer from "./Components/Footer.jsx";
 
 const App = () => {
   return (
