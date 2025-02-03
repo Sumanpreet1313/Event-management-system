@@ -12,7 +12,15 @@ app.use(cors({
     origin:[process.env.FRONTEND_URL],
     methods:["POST"],
     credentials:true,
-}))
+}));
+
+app.get("/",(req,res)=>{
+    res.json({
+        sucess:true,
+        message:"Good Luck!",
+    });
+});
+
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
